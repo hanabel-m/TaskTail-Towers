@@ -28,6 +28,9 @@
 		3239F4602B3DC4E700745F0F /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3239F45F2B3DC4E700745F0F /* ToDoListView.swift */; };
 		3239F4622B3DC4FA00745F0F /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3239F4612B3DC4FA00745F0F /* ShopView.swift */; };
 		3239F4642B3DC50D00745F0F /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3239F4632B3DC50D00745F0F /* TimerView.swift */; };
+		3239F4702B3DD08100745F0F /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3239F46F2B3DD08100745F0F /* IntExtension.swift */; };
+		3239F4722B3DD5D200745F0F /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3239F4712B3DD5D200745F0F /* TimerManager.swift */; };
+		3239F4742B3DD6D200745F0F /* ProgressRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3239F4732B3DD6D200745F0F /* ProgressRing.swift */; };
 		32C5D6952B3C912C0050D948 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C5D6942B3C912C0050D948 /* SplashScreenView.swift */; };
 		32C5D6982B3C9E6F0050D948 /* TaskCat.png in Resources */ = {isa = PBXBuildFile; fileRef = 32C5D6972B3C9E6F0050D948 /* TaskCat.png */; };
 		32C5D6992B3C9E6F0050D948 /* TaskCat.png in Resources */ = {isa = PBXBuildFile; fileRef = 32C5D6972B3C9E6F0050D948 /* TaskCat.png */; };
@@ -85,6 +88,9 @@
 		3239F45F2B3DC4E700745F0F /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
 		3239F4612B3DC4FA00745F0F /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
 		3239F4632B3DC50D00745F0F /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		3239F46F2B3DD08100745F0F /* IntExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
+		3239F4712B3DD5D200745F0F /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
+		3239F4732B3DD6D200745F0F /* ProgressRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRing.swift; sourceTree = "<group>"; };
 		32C5D6942B3C912C0050D948 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		32C5D6972B3C9E6F0050D948 /* TaskCat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TaskCat.png; sourceTree = "<group>"; };
 		32C5D69C2B3CA7E80050D948 /* CuteFont-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CuteFont-Regular.ttf"; sourceTree = "<group>"; };
@@ -120,6 +126,7 @@
 		322571612B3B883300569D2B = {
 			isa = PBXGroup;
 			children = (
+				3239F46F2B3DD08100745F0F /* IntExtension.swift */,
 				3225716C2B3B883300569D2B /* TaskTailTowers */,
 				322571812B3B883500569D2B /* TaskTailTowersTests */,
 				3225718B2B3B883500569D2B /* TaskTailTowersUITests */,
@@ -145,6 +152,8 @@
 				3225716F2B3B883300569D2B /* ContentView.swift */,
 				3239F45B2B3DC32800745F0F /* HomeView.swift */,
 				3239F45F2B3DC4E700745F0F /* ToDoListView.swift */,
+				3239F4732B3DD6D200745F0F /* ProgressRing.swift */,
+				3239F4712B3DD5D200745F0F /* TimerManager.swift */,
 				3239F4612B3DC4FA00745F0F /* ShopView.swift */,
 				3239F4632B3DC50D00745F0F /* TimerView.swift */,
 				3239F45D2B3DC4D400745F0F /* SettingsView.swift */,
@@ -368,9 +377,12 @@
 			files = (
 				3239F4642B3DC50D00745F0F /* TimerView.swift in Sources */,
 				322571702B3B883300569D2B /* ContentView.swift in Sources */,
+				3239F4742B3DD6D200745F0F /* ProgressRing.swift in Sources */,
+				3239F4722B3DD5D200745F0F /* TimerManager.swift in Sources */,
 				322571722B3B883300569D2B /* Item.swift in Sources */,
 				3225716E2B3B883300569D2B /* TaskTailTowersApp.swift in Sources */,
 				3239F45E2B3DC4D400745F0F /* SettingsView.swift in Sources */,
+				3239F4702B3DD08100745F0F /* IntExtension.swift in Sources */,
 				3239F45C2B3DC32800745F0F /* HomeView.swift in Sources */,
 				32C5D6952B3C912C0050D948 /* SplashScreenView.swift in Sources */,
 				3239F4622B3DC4FA00745F0F /* ShopView.swift in Sources */,

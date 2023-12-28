@@ -50,24 +50,7 @@ struct ProgressRing: View {
                 }
                 .padding(.top, 20)
                 // MARK: remaining time
-                VStack(spacing: 8) {
-                    if !timerManager.elapsed {
-                        Text("Remaining time (\((1-timerManager.progress).formatted(.percent)))")
-                            .opacity(0.7)
-                    } else {
-                        Text("Extra time")
-                            .opacity(0.7)
-                    }
-                    if timerManager.timerState == .notStarted {
-                        Text("00:00")
-                            .font(.title)
-                            .fontWeight(.bold)
-                    } else {
-                        Text(timerManager.endTime, style: .timer)
-                            .font(.title)
-                            .fontWeight(.bold)
-                    }
-                }
+
             }
         }
         .frame(width: 250, height: 250)

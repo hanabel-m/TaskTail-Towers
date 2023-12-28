@@ -5,14 +5,14 @@
 //  Created by Hanabel Mengistu on 12/28/23.
 //
 
-import SwiftUI
+import Foundation
 
-struct IntExtension: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+extension Int {
+    var asTimestamp: String {
+        let hour = self / 3600
+        let minute = self / 60 % 60
+        let second = self % 60
+
+        return String(format: "%02i:%02i:%02i", hour, minute, second)
     }
-}
-
-#Preview {
-    IntExtension()
 }
