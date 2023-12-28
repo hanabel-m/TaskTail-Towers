@@ -15,6 +15,32 @@
 		322571832B3B883500569D2B /* TaskTailTowersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322571822B3B883500569D2B /* TaskTailTowersTests.swift */; };
 		3225718D2B3B883500569D2B /* TaskTailTowersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3225718C2B3B883500569D2B /* TaskTailTowersUITests.swift */; };
 		3225718F2B3B883500569D2B /* TaskTailTowersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3225718E2B3B883500569D2B /* TaskTailTowersUITestsLaunchTests.swift */; };
+		3225719D2B3BB83500569D2B /* MondayFeelings-7BD2l.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3225719C2B3BB83500569D2B /* MondayFeelings-7BD2l.ttf */; };
+		3225719E2B3BB83500569D2B /* MondayFeelings-7BD2l.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3225719C2B3BB83500569D2B /* MondayFeelings-7BD2l.ttf */; };
+		3225719F2B3BB83500569D2B /* MondayFeelings-7BD2l.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3225719C2B3BB83500569D2B /* MondayFeelings-7BD2l.ttf */; };
+		3239F4342B3DA5E200745F0F /* HomeTTT.png in Resources */ = {isa = PBXBuildFile; fileRef = 3239F42F2B3DA5E100745F0F /* HomeTTT.png */; };
+		3239F4352B3DA5E200745F0F /* TasksTTT.png in Resources */ = {isa = PBXBuildFile; fileRef = 3239F4302B3DA5E200745F0F /* TasksTTT.png */; };
+		3239F4362B3DA5E200745F0F /* ClockTTT.png in Resources */ = {isa = PBXBuildFile; fileRef = 3239F4312B3DA5E200745F0F /* ClockTTT.png */; };
+		3239F4372B3DA5E200745F0F /* ShopTTT.png in Resources */ = {isa = PBXBuildFile; fileRef = 3239F4322B3DA5E200745F0F /* ShopTTT.png */; };
+		3239F4382B3DA5E200745F0F /* SettingsTTT.png in Resources */ = {isa = PBXBuildFile; fileRef = 3239F4332B3DA5E200745F0F /* SettingsTTT.png */; };
+		3239F45C2B3DC32800745F0F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3239F45B2B3DC32800745F0F /* HomeView.swift */; };
+		3239F45E2B3DC4D400745F0F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3239F45D2B3DC4D400745F0F /* SettingsView.swift */; };
+		3239F4602B3DC4E700745F0F /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3239F45F2B3DC4E700745F0F /* ToDoListView.swift */; };
+		3239F4622B3DC4FA00745F0F /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3239F4612B3DC4FA00745F0F /* ShopView.swift */; };
+		3239F4642B3DC50D00745F0F /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3239F4632B3DC50D00745F0F /* TimerView.swift */; };
+		32C5D6952B3C912C0050D948 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C5D6942B3C912C0050D948 /* SplashScreenView.swift */; };
+		32C5D6982B3C9E6F0050D948 /* TaskCat.png in Resources */ = {isa = PBXBuildFile; fileRef = 32C5D6972B3C9E6F0050D948 /* TaskCat.png */; };
+		32C5D6992B3C9E6F0050D948 /* TaskCat.png in Resources */ = {isa = PBXBuildFile; fileRef = 32C5D6972B3C9E6F0050D948 /* TaskCat.png */; };
+		32C5D69A2B3C9E6F0050D948 /* TaskCat.png in Resources */ = {isa = PBXBuildFile; fileRef = 32C5D6972B3C9E6F0050D948 /* TaskCat.png */; };
+		32C5D69E2B3CA7E80050D948 /* CuteFont-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32C5D69C2B3CA7E80050D948 /* CuteFont-Regular.ttf */; };
+		32C5D69F2B3CA7E80050D948 /* CuteFont-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32C5D69C2B3CA7E80050D948 /* CuteFont-Regular.ttf */; };
+		32C5D6A02B3CA7E80050D948 /* CuteFont-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32C5D69C2B3CA7E80050D948 /* CuteFont-Regular.ttf */; };
+		32C5D6A12B3CA7E80050D948 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 32C5D69D2B3CA7E80050D948 /* OFL.txt */; };
+		32C5D6A22B3CA7E80050D948 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 32C5D69D2B3CA7E80050D948 /* OFL.txt */; };
+		32C5D6A32B3CA7E80050D948 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 32C5D69D2B3CA7E80050D948 /* OFL.txt */; };
+		32C5D6A52B3CA9300050D948 /* TaskCatfront.png in Resources */ = {isa = PBXBuildFile; fileRef = 32C5D6A42B3CA9300050D948 /* TaskCatfront.png */; };
+		32C5D6A62B3CA9300050D948 /* TaskCatfront.png in Resources */ = {isa = PBXBuildFile; fileRef = 32C5D6A42B3CA9300050D948 /* TaskCatfront.png */; };
+		32C5D6A72B3CA9300050D948 /* TaskCatfront.png in Resources */ = {isa = PBXBuildFile; fileRef = 32C5D6A42B3CA9300050D948 /* TaskCatfront.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +74,22 @@
 		322571882B3B883500569D2B /* TaskTailTowersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskTailTowersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3225718C2B3B883500569D2B /* TaskTailTowersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTailTowersUITests.swift; sourceTree = "<group>"; };
 		3225718E2B3B883500569D2B /* TaskTailTowersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTailTowersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3225719C2B3BB83500569D2B /* MondayFeelings-7BD2l.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MondayFeelings-7BD2l.ttf"; sourceTree = "<group>"; };
+		3239F42F2B3DA5E100745F0F /* HomeTTT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeTTT.png; sourceTree = "<group>"; };
+		3239F4302B3DA5E200745F0F /* TasksTTT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TasksTTT.png; sourceTree = "<group>"; };
+		3239F4312B3DA5E200745F0F /* ClockTTT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ClockTTT.png; sourceTree = "<group>"; };
+		3239F4322B3DA5E200745F0F /* ShopTTT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShopTTT.png; sourceTree = "<group>"; };
+		3239F4332B3DA5E200745F0F /* SettingsTTT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SettingsTTT.png; sourceTree = "<group>"; };
+		3239F45B2B3DC32800745F0F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = Assets/HomeView.swift; sourceTree = "<group>"; };
+		3239F45D2B3DC4D400745F0F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3239F45F2B3DC4E700745F0F /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
+		3239F4612B3DC4FA00745F0F /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		3239F4632B3DC50D00745F0F /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		32C5D6942B3C912C0050D948 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		32C5D6972B3C9E6F0050D948 /* TaskCat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TaskCat.png; sourceTree = "<group>"; };
+		32C5D69C2B3CA7E80050D948 /* CuteFont-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CuteFont-Regular.ttf"; sourceTree = "<group>"; };
+		32C5D69D2B3CA7E80050D948 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		32C5D6A42B3CA9300050D948 /* TaskCatfront.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TaskCatfront.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +140,24 @@
 		3225716C2B3B883300569D2B /* TaskTailTowers */ = {
 			isa = PBXGroup;
 			children = (
+				32C5D6962B3C9E5D0050D948 /* Assets */,
 				3225716D2B3B883300569D2B /* TaskTailTowersApp.swift */,
 				3225716F2B3B883300569D2B /* ContentView.swift */,
+				3239F45B2B3DC32800745F0F /* HomeView.swift */,
+				3239F45F2B3DC4E700745F0F /* ToDoListView.swift */,
+				3239F4612B3DC4FA00745F0F /* ShopView.swift */,
+				3239F4632B3DC50D00745F0F /* TimerView.swift */,
+				3239F45D2B3DC4D400745F0F /* SettingsView.swift */,
+				32C5D6942B3C912C0050D948 /* SplashScreenView.swift */,
 				322571712B3B883300569D2B /* Item.swift */,
 				322571732B3B883500569D2B /* Assets.xcassets */,
+				3239F4312B3DA5E200745F0F /* ClockTTT.png */,
+				3239F42F2B3DA5E100745F0F /* HomeTTT.png */,
+				3239F4332B3DA5E200745F0F /* SettingsTTT.png */,
+				3239F4322B3DA5E200745F0F /* ShopTTT.png */,
+				3239F4302B3DA5E200745F0F /* TasksTTT.png */,
+				32C5D6A42B3CA9300050D948 /* TaskCatfront.png */,
+				32C5D6972B3C9E6F0050D948 /* TaskCat.png */,
 				322571782B3B883500569D2B /* TaskTailTowers.entitlements */,
 				322571792B3B883500569D2B /* Info.plist */,
 				322571752B3B883500569D2B /* Preview Content */,
@@ -132,6 +188,32 @@
 				3225718E2B3B883500569D2B /* TaskTailTowersUITestsLaunchTests.swift */,
 			);
 			path = TaskTailTowersUITests;
+			sourceTree = "<group>";
+		};
+		3225719B2B3BB82400569D2B /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				32C5D69B2B3CA7E80050D948 /* Cute_Font */,
+				3225719C2B3BB83500569D2B /* MondayFeelings-7BD2l.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		32C5D6962B3C9E5D0050D948 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3225719B2B3BB82400569D2B /* fonts */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		32C5D69B2B3CA7E80050D948 /* Cute_Font */ = {
+			isa = PBXGroup;
+			children = (
+				32C5D69C2B3CA7E80050D948 /* CuteFont-Regular.ttf */,
+				32C5D69D2B3CA7E80050D948 /* OFL.txt */,
+			);
+			path = Cute_Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,8 +320,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3239F4352B3DA5E200745F0F /* TasksTTT.png in Resources */,
+				32C5D6A52B3CA9300050D948 /* TaskCatfront.png in Resources */,
+				32C5D6A12B3CA7E80050D948 /* OFL.txt in Resources */,
+				3225719D2B3BB83500569D2B /* MondayFeelings-7BD2l.ttf in Resources */,
+				3239F4372B3DA5E200745F0F /* ShopTTT.png in Resources */,
+				3239F4342B3DA5E200745F0F /* HomeTTT.png in Resources */,
+				32C5D69E2B3CA7E80050D948 /* CuteFont-Regular.ttf in Resources */,
+				32C5D6982B3C9E6F0050D948 /* TaskCat.png in Resources */,
 				322571772B3B883500569D2B /* Preview Assets.xcassets in Resources */,
 				322571742B3B883500569D2B /* Assets.xcassets in Resources */,
+				3239F4362B3DA5E200745F0F /* ClockTTT.png in Resources */,
+				3239F4382B3DA5E200745F0F /* SettingsTTT.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +339,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32C5D69F2B3CA7E80050D948 /* CuteFont-Regular.ttf in Resources */,
+				3225719E2B3BB83500569D2B /* MondayFeelings-7BD2l.ttf in Resources */,
+				32C5D6A62B3CA9300050D948 /* TaskCatfront.png in Resources */,
+				32C5D6A22B3CA7E80050D948 /* OFL.txt in Resources */,
+				32C5D6992B3C9E6F0050D948 /* TaskCat.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +351,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32C5D6A02B3CA7E80050D948 /* CuteFont-Regular.ttf in Resources */,
+				3225719F2B3BB83500569D2B /* MondayFeelings-7BD2l.ttf in Resources */,
+				32C5D6A72B3CA9300050D948 /* TaskCatfront.png in Resources */,
+				32C5D6A32B3CA7E80050D948 /* OFL.txt in Resources */,
+				32C5D69A2B3C9E6F0050D948 /* TaskCat.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,9 +366,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3239F4642B3DC50D00745F0F /* TimerView.swift in Sources */,
 				322571702B3B883300569D2B /* ContentView.swift in Sources */,
 				322571722B3B883300569D2B /* Item.swift in Sources */,
 				3225716E2B3B883300569D2B /* TaskTailTowersApp.swift in Sources */,
+				3239F45E2B3DC4D400745F0F /* SettingsView.swift in Sources */,
+				3239F45C2B3DC32800745F0F /* HomeView.swift in Sources */,
+				32C5D6952B3C912C0050D948 /* SplashScreenView.swift in Sources */,
+				3239F4622B3DC4FA00745F0F /* ShopView.swift in Sources */,
+				3239F4602B3DC4E700745F0F /* ToDoListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,61 +1,90 @@
-//
-//  ContentView.swift
-//  TaskTailTowers
-//
-//  Created by Hanabel Mengistu on 12/26/23.
-//
-
 import SwiftUI
-import SwiftData
 
 struct ContentView: View {
-    @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
+    @State private var index = 0
 
     var body: some View {
-        NavigationSplitView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
-                    } label: {
-                        Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
-                    }
+        NavigationView {
+            VStack(alignment: .center) {
+                ZStack {
+                    destinationView(for: index)
                 }
-                .onDelete(perform: deleteItems)
+                .padding(.bottom, 12)
+                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
+                
+                Spacer()
+
+                CustomTabs(index: $index)
+                    .padding(.bottom, 30)
             }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
-                    }
-                }
-            }
-        } detail: {
-            Text("Select an item")
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(Color(UIColor(hex: "#F7E3D9")))
+            .edgesIgnoringSafeArea(.all)
         }
     }
 
-    private func addItem() {
-        withAnimation {
-            let newItem = Item(timestamp: Date())
-            modelContext.insert(newItem)
-        }
-    }
-
-    private func deleteItems(offsets: IndexSet) {
-        withAnimation {
-            for index in offsets {
-                modelContext.delete(items[index])
-            }
+    @ViewBuilder
+    func destinationView(for index: Int) -> some View {
+        switch index {
+        case 0:
+            TimerView()
+        case 1:
+            ToDoListView()
+        case 2:
+            HomeView()
+        case 3:
+            ShopView()
+        case 4:
+            SettingsView()
+        default:
+            EmptyView()
         }
     }
 }
 
-#Preview {
-    ContentView()
-        .modelContainer(for: Item.self, inMemory: true)
+struct CustomTabs: View {
+    @Binding var index: Int
+
+    var body: some View {
+        HStack {
+            ForEach(0 ..< 5) { i in
+                Button(action: {
+                    self.index = i
+                }) {
+                    Image("\(tabImageName(for: i))")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 35, height: 35)
+                }
+                .foregroundColor(Color.black.opacity(self.index == i ? 1 : 0.3))
+                .padding(.horizontal, 15)
+            }
+        }
+        .padding(EdgeInsets(top: 20, leading: 16, bottom: 8, trailing: 16)) // Adjust the padding as needed
+        .background(Color(UIColor(hex: "f9eee8")))
+        
+    }
+
+    func tabImageName(for index: Int) -> String {
+        switch index {
+        case 0:
+            return "ClockTTT"
+        case 1:
+            return "TasksTTT"
+        case 2:
+            return "HomeTTT"
+        case 3:
+            return "ShopTTT"
+        case 4:
+            return "SettingsTTT"
+        default:
+            return ""
+        }
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }
