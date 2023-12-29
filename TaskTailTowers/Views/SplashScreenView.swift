@@ -26,7 +26,7 @@ struct SplashScreenView: View {
                             .padding(.bottom, 1)
                     }
                     Text("Tasktail Towers")
-                        .font(.custom("CuteFont-Regular", size: 60))
+                        .font(.custom("ComingSoon-Regular", size:30))
                         .foregroundColor(.black.opacity(0.80))
                 }
                 

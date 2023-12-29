@@ -27,7 +27,7 @@ struct ContentView: View {
     func destinationView(for index: Int) -> some View {
         switch index {
         case 0:
-            TimerView()
+            PomodoroContentView()
         case 1:
             ToDoListView()
         case 2:
