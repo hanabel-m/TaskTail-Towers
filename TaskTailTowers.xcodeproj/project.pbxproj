@@ -15,9 +15,6 @@
 		322571832B3B883500569D2B /* TaskTailTowersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322571822B3B883500569D2B /* TaskTailTowersTests.swift */; };
 		3225718D2B3B883500569D2B /* TaskTailTowersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3225718C2B3B883500569D2B /* TaskTailTowersUITests.swift */; };
 		3225718F2B3B883500569D2B /* TaskTailTowersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3225718E2B3B883500569D2B /* TaskTailTowersUITestsLaunchTests.swift */; };
-		3225719D2B3BB83500569D2B /* MondayFeelings-7BD2l.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3225719C2B3BB83500569D2B /* MondayFeelings-7BD2l.ttf */; };
-		3225719E2B3BB83500569D2B /* MondayFeelings-7BD2l.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3225719C2B3BB83500569D2B /* MondayFeelings-7BD2l.ttf */; };
-		3225719F2B3BB83500569D2B /* MondayFeelings-7BD2l.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3225719C2B3BB83500569D2B /* MondayFeelings-7BD2l.ttf */; };
 		3239F4342B3DA5E200745F0F /* HomeTTT.png in Resources */ = {isa = PBXBuildFile; fileRef = 3239F42F2B3DA5E100745F0F /* HomeTTT.png */; };
 		3239F4352B3DA5E200745F0F /* TasksTTT.png in Resources */ = {isa = PBXBuildFile; fileRef = 3239F4302B3DA5E200745F0F /* TasksTTT.png */; };
 		3239F4362B3DA5E200745F0F /* ClockTTT.png in Resources */ = {isa = PBXBuildFile; fileRef = 3239F4312B3DA5E200745F0F /* ClockTTT.png */; };
@@ -27,20 +24,17 @@
 		3239F45E2B3DC4D400745F0F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3239F45D2B3DC4D400745F0F /* SettingsView.swift */; };
 		3239F4602B3DC4E700745F0F /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3239F45F2B3DC4E700745F0F /* ToDoListView.swift */; };
 		3239F4622B3DC4FA00745F0F /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3239F4612B3DC4FA00745F0F /* ShopView.swift */; };
-		3239F4642B3DC50D00745F0F /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3239F4632B3DC50D00745F0F /* TimerView.swift */; };
-		3239F4702B3DD08100745F0F /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3239F46F2B3DD08100745F0F /* IntExtension.swift */; };
-		3239F4722B3DD5D200745F0F /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3239F4712B3DD5D200745F0F /* TimerManager.swift */; };
-		3239F4742B3DD6D200745F0F /* ProgressRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3239F4732B3DD6D200745F0F /* ProgressRing.swift */; };
+		32549E2B2B3E36FB0083C0B8 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32549E2A2B3E36FB0083C0B8 /* TimerView.swift */; };
+		32549E2D2B3E38450083C0B8 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32549E2C2B3E38450083C0B8 /* ViewModel.swift */; };
+		32549E2F2B3E44F30083C0B8 /* ShortTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32549E2E2B3E44F30083C0B8 /* ShortTimerView.swift */; };
+		32549E312B3E46E30083C0B8 /* LongTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32549E302B3E46E30083C0B8 /* LongTimerView.swift */; };
+		32549E332B3E47D90083C0B8 /* PomodoroContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32549E322B3E47D90083C0B8 /* PomodoroContentView.swift */; };
+		32549E372B3E4BEC0083C0B8 /* ComingSoon-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32549E352B3E4BEC0083C0B8 /* ComingSoon-Regular.ttf */; };
+		32549E382B3E4BEC0083C0B8 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 32549E362B3E4BEC0083C0B8 /* LICENSE.txt */; };
 		32C5D6952B3C912C0050D948 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C5D6942B3C912C0050D948 /* SplashScreenView.swift */; };
 		32C5D6982B3C9E6F0050D948 /* TaskCat.png in Resources */ = {isa = PBXBuildFile; fileRef = 32C5D6972B3C9E6F0050D948 /* TaskCat.png */; };
 		32C5D6992B3C9E6F0050D948 /* TaskCat.png in Resources */ = {isa = PBXBuildFile; fileRef = 32C5D6972B3C9E6F0050D948 /* TaskCat.png */; };
 		32C5D69A2B3C9E6F0050D948 /* TaskCat.png in Resources */ = {isa = PBXBuildFile; fileRef = 32C5D6972B3C9E6F0050D948 /* TaskCat.png */; };
-		32C5D69E2B3CA7E80050D948 /* CuteFont-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32C5D69C2B3CA7E80050D948 /* CuteFont-Regular.ttf */; };
-		32C5D69F2B3CA7E80050D948 /* CuteFont-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32C5D69C2B3CA7E80050D948 /* CuteFont-Regular.ttf */; };
-		32C5D6A02B3CA7E80050D948 /* CuteFont-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32C5D69C2B3CA7E80050D948 /* CuteFont-Regular.ttf */; };
-		32C5D6A12B3CA7E80050D948 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 32C5D69D2B3CA7E80050D948 /* OFL.txt */; };
-		32C5D6A22B3CA7E80050D948 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 32C5D69D2B3CA7E80050D948 /* OFL.txt */; };
-		32C5D6A32B3CA7E80050D948 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 32C5D69D2B3CA7E80050D948 /* OFL.txt */; };
 		32C5D6A52B3CA9300050D948 /* TaskCatfront.png in Resources */ = {isa = PBXBuildFile; fileRef = 32C5D6A42B3CA9300050D948 /* TaskCatfront.png */; };
 		32C5D6A62B3CA9300050D948 /* TaskCatfront.png in Resources */ = {isa = PBXBuildFile; fileRef = 32C5D6A42B3CA9300050D948 /* TaskCatfront.png */; };
 		32C5D6A72B3CA9300050D948 /* TaskCatfront.png in Resources */ = {isa = PBXBuildFile; fileRef = 32C5D6A42B3CA9300050D948 /* TaskCatfront.png */; };
@@ -77,24 +71,25 @@
 		322571882B3B883500569D2B /* TaskTailTowersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskTailTowersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3225718C2B3B883500569D2B /* TaskTailTowersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTailTowersUITests.swift; sourceTree = "<group>"; };
 		3225718E2B3B883500569D2B /* TaskTailTowersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTailTowersUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		3225719C2B3BB83500569D2B /* MondayFeelings-7BD2l.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MondayFeelings-7BD2l.ttf"; sourceTree = "<group>"; };
 		3239F42F2B3DA5E100745F0F /* HomeTTT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeTTT.png; sourceTree = "<group>"; };
 		3239F4302B3DA5E200745F0F /* TasksTTT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TasksTTT.png; sourceTree = "<group>"; };
 		3239F4312B3DA5E200745F0F /* ClockTTT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ClockTTT.png; sourceTree = "<group>"; };
 		3239F4322B3DA5E200745F0F /* ShopTTT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShopTTT.png; sourceTree = "<group>"; };
 		3239F4332B3DA5E200745F0F /* SettingsTTT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SettingsTTT.png; sourceTree = "<group>"; };
-		3239F45B2B3DC32800745F0F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = Assets/HomeView.swift; sourceTree = "<group>"; };
+		3239F45B2B3DC32800745F0F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		3239F45D2B3DC4D400745F0F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		3239F45F2B3DC4E700745F0F /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
 		3239F4612B3DC4FA00745F0F /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
-		3239F4632B3DC50D00745F0F /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
-		3239F46F2B3DD08100745F0F /* IntExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
-		3239F4712B3DD5D200745F0F /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
-		3239F4732B3DD6D200745F0F /* ProgressRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRing.swift; sourceTree = "<group>"; };
+		32549E182B3E1F330083C0B8 /* CANDY___.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CANDY___.otf"; sourceTree = "<group>"; };
+		32549E2A2B3E36FB0083C0B8 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		32549E2C2B3E38450083C0B8 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		32549E2E2B3E44F30083C0B8 /* ShortTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortTimerView.swift; sourceTree = "<group>"; };
+		32549E302B3E46E30083C0B8 /* LongTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongTimerView.swift; sourceTree = "<group>"; };
+		32549E322B3E47D90083C0B8 /* PomodoroContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroContentView.swift; sourceTree = "<group>"; };
+		32549E352B3E4BEC0083C0B8 /* ComingSoon-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ComingSoon-Regular.ttf"; sourceTree = "<group>"; };
+		32549E362B3E4BEC0083C0B8 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		32C5D6942B3C912C0050D948 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		32C5D6972B3C9E6F0050D948 /* TaskCat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TaskCat.png; sourceTree = "<group>"; };
-		32C5D69C2B3CA7E80050D948 /* CuteFont-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CuteFont-Regular.ttf"; sourceTree = "<group>"; };
-		32C5D69D2B3CA7E80050D948 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		32C5D6A42B3CA9300050D948 /* TaskCatfront.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TaskCatfront.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,7 +121,7 @@
 		322571612B3B883300569D2B = {
 			isa = PBXGroup;
 			children = (
-				3239F46F2B3DD08100745F0F /* IntExtension.swift */,
+				3258B7032B3F0B0700A271EB /* Timer */,
 				3225716C2B3B883300569D2B /* TaskTailTowers */,
 				322571812B3B883500569D2B /* TaskTailTowersTests */,
 				3225718B2B3B883500569D2B /* TaskTailTowersUITests */,
@@ -147,17 +142,9 @@
 		3225716C2B3B883300569D2B /* TaskTailTowers */ = {
 			isa = PBXGroup;
 			children = (
+				3258B7022B3F0AD300A271EB /* Views */,
 				32C5D6962B3C9E5D0050D948 /* Assets */,
 				3225716D2B3B883300569D2B /* TaskTailTowersApp.swift */,
-				3225716F2B3B883300569D2B /* ContentView.swift */,
-				3239F45B2B3DC32800745F0F /* HomeView.swift */,
-				3239F45F2B3DC4E700745F0F /* ToDoListView.swift */,
-				3239F4732B3DD6D200745F0F /* ProgressRing.swift */,
-				3239F4712B3DD5D200745F0F /* TimerManager.swift */,
-				3239F4612B3DC4FA00745F0F /* ShopView.swift */,
-				3239F4632B3DC50D00745F0F /* TimerView.swift */,
-				3239F45D2B3DC4D400745F0F /* SettingsView.swift */,
-				32C5D6942B3C912C0050D948 /* SplashScreenView.swift */,
 				322571712B3B883300569D2B /* Item.swift */,
 				322571732B3B883500569D2B /* Assets.xcassets */,
 				3239F4312B3DA5E200745F0F /* ClockTTT.png */,
@@ -202,10 +189,45 @@
 		3225719B2B3BB82400569D2B /* fonts */ = {
 			isa = PBXGroup;
 			children = (
-				32C5D69B2B3CA7E80050D948 /* Cute_Font */,
-				3225719C2B3BB83500569D2B /* MondayFeelings-7BD2l.ttf */,
+				32549E342B3E4BEC0083C0B8 /* Coming_Soon */,
+				32549E182B3E1F330083C0B8 /* CANDY___.otf */,
 			);
 			path = fonts;
+			sourceTree = "<group>";
+		};
+		32549E342B3E4BEC0083C0B8 /* Coming_Soon */ = {
+			isa = PBXGroup;
+			children = (
+				32549E352B3E4BEC0083C0B8 /* ComingSoon-Regular.ttf */,
+				32549E362B3E4BEC0083C0B8 /* LICENSE.txt */,
+			);
+			name = Coming_Soon;
+			path = ../../../../../../Downloads/Coming_Soon;
+			sourceTree = "<group>";
+		};
+		3258B7022B3F0AD300A271EB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				32549E322B3E47D90083C0B8 /* PomodoroContentView.swift */,
+				32C5D6942B3C912C0050D948 /* SplashScreenView.swift */,
+				3225716F2B3B883300569D2B /* ContentView.swift */,
+				3239F45B2B3DC32800745F0F /* HomeView.swift */,
+				3239F45F2B3DC4E700745F0F /* ToDoListView.swift */,
+				3239F4612B3DC4FA00745F0F /* ShopView.swift */,
+				3239F45D2B3DC4D400745F0F /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3258B7032B3F0B0700A271EB /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				32549E2E2B3E44F30083C0B8 /* ShortTimerView.swift */,
+				32549E302B3E46E30083C0B8 /* LongTimerView.swift */,
+				32549E2C2B3E38450083C0B8 /* ViewModel.swift */,
+				32549E2A2B3E36FB0083C0B8 /* TimerView.swift */,
+			);
+			path = Timer;
 			sourceTree = "<group>";
 		};
 		32C5D6962B3C9E5D0050D948 /* Assets */ = {
@@ -214,15 +236,6 @@
 				3225719B2B3BB82400569D2B /* fonts */,
 			);
 			path = Assets;
-			sourceTree = "<group>";
-		};
-		32C5D69B2B3CA7E80050D948 /* Cute_Font */ = {
-			isa = PBXGroup;
-			children = (
-				32C5D69C2B3CA7E80050D948 /* CuteFont-Regular.ttf */,
-				32C5D69D2B3CA7E80050D948 /* OFL.txt */,
-			);
-			path = Cute_Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,16 +342,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32549E382B3E4BEC0083C0B8 /* LICENSE.txt in Resources */,
 				3239F4352B3DA5E200745F0F /* TasksTTT.png in Resources */,
 				32C5D6A52B3CA9300050D948 /* TaskCatfront.png in Resources */,
-				32C5D6A12B3CA7E80050D948 /* OFL.txt in Resources */,
-				3225719D2B3BB83500569D2B /* MondayFeelings-7BD2l.ttf in Resources */,
 				3239F4372B3DA5E200745F0F /* ShopTTT.png in Resources */,
 				3239F4342B3DA5E200745F0F /* HomeTTT.png in Resources */,
-				32C5D69E2B3CA7E80050D948 /* CuteFont-Regular.ttf in Resources */,
 				32C5D6982B3C9E6F0050D948 /* TaskCat.png in Resources */,
 				322571772B3B883500569D2B /* Preview Assets.xcassets in Resources */,
 				322571742B3B883500569D2B /* Assets.xcassets in Resources */,
+				32549E372B3E4BEC0083C0B8 /* ComingSoon-Regular.ttf in Resources */,
 				3239F4362B3DA5E200745F0F /* ClockTTT.png in Resources */,
 				3239F4382B3DA5E200745F0F /* SettingsTTT.png in Resources */,
 			);
@@ -348,10 +360,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32C5D69F2B3CA7E80050D948 /* CuteFont-Regular.ttf in Resources */,
-				3225719E2B3BB83500569D2B /* MondayFeelings-7BD2l.ttf in Resources */,
 				32C5D6A62B3CA9300050D948 /* TaskCatfront.png in Resources */,
-				32C5D6A22B3CA7E80050D948 /* OFL.txt in Resources */,
 				32C5D6992B3C9E6F0050D948 /* TaskCat.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,10 +369,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32C5D6A02B3CA7E80050D948 /* CuteFont-Regular.ttf in Resources */,
-				3225719F2B3BB83500569D2B /* MondayFeelings-7BD2l.ttf in Resources */,
 				32C5D6A72B3CA9300050D948 /* TaskCatfront.png in Resources */,
-				32C5D6A32B3CA7E80050D948 /* OFL.txt in Resources */,
 				32C5D69A2B3C9E6F0050D948 /* TaskCat.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,17 +381,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3239F4642B3DC50D00745F0F /* TimerView.swift in Sources */,
 				322571702B3B883300569D2B /* ContentView.swift in Sources */,
-				3239F4742B3DD6D200745F0F /* ProgressRing.swift in Sources */,
-				3239F4722B3DD5D200745F0F /* TimerManager.swift in Sources */,
+				32549E332B3E47D90083C0B8 /* PomodoroContentView.swift in Sources */,
 				322571722B3B883300569D2B /* Item.swift in Sources */,
 				3225716E2B3B883300569D2B /* TaskTailTowersApp.swift in Sources */,
+				32549E2D2B3E38450083C0B8 /* ViewModel.swift in Sources */,
 				3239F45E2B3DC4D400745F0F /* SettingsView.swift in Sources */,
-				3239F4702B3DD08100745F0F /* IntExtension.swift in Sources */,
+				32549E2B2B3E36FB0083C0B8 /* TimerView.swift in Sources */,
+				32549E2F2B3E44F30083C0B8 /* ShortTimerView.swift in Sources */,
 				3239F45C2B3DC32800745F0F /* HomeView.swift in Sources */,
 				32C5D6952B3C912C0050D948 /* SplashScreenView.swift in Sources */,
 				3239F4622B3DC4FA00745F0F /* ShopView.swift in Sources */,
+				32549E312B3E46E30083C0B8 /* LongTimerView.swift in Sources */,
 				3239F4602B3DC4E700745F0F /* ToDoListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

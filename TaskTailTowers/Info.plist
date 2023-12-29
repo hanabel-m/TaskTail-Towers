@@ -6,8 +6,10 @@
 	<string></string>
 	<key>UIAppFonts</key>
 	<array>
+		<string>ComingSoon-Regular.ttf</string>
+		<string>A little sunshine.ttf</string>
+		<string>CANDY___.otf</string>
 		<string>CuteFont-Regular.ttf</string>
-		<string>MondayFeelings-7BD2l.ttf</string>
 	</array>
 	<key>UIBackgroundModes</key>
 	<array>
