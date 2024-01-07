@@ -1,4 +1,4 @@
-#🐾TaskTail Towers🐾
+#TaskTail Towers🐾
 
 Turn your productivity journey into a thrilling adventure with Tasktail Towers, the gamified productivity app that makes tackling tasks fun and rewarding! 🏰✨
 
